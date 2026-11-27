@@ -40,3 +40,13 @@ Reuters, AP, CNN, BBC, ONS, NZ Electoral Commission, Adobe, Chess.com,
 UKMTO, UNI Global Union, Press Information Bureau of India. All stories
 were first reported on 27 November 2026 or were still developing that day;
 see DATE CHECK in the image for the rest.
+
+## Design notes
+
+Thirty-three stories, not twelve, because a single news day is wider than a dozen headlines: the grid gives every major beat its own card instead of squeezing several into one.
+A DATE CHECK box sits near the top and names the stories that belong to other days, so a reader can see at a glance what was deliberately left out and why the date line stays honest.
+Every pin on the map carries the same number as its story card, so the eye can jump between geography and headline without hunting through a legend.
+The hero is the Thanksgiving storm that forced the Macy's parade to be postponed — the day's most visual and most consequential event, and the one that sets the mood of the whole page.
+The storm leads because it touches travel, weather, and a national ritual at once; no other story on the day reaches that many readers.
+The layout keeps the image dense on purpose: a newspaper front page should feel full, with no large empty patches.
+The render is deterministic: the same input always produces the same PNG, so the image can be rebuilt and verified at any time.
